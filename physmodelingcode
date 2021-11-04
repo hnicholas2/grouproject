@@ -1,0 +1,7 @@
+Kian Ziai 
+Sarah Avington 
+Hannah Nicholas
+syms SC(t) OC(t) L(t) ks k0 k1
+eqn1 = diff(SC) == -ks*SC
+eqn2 = diff(OC) == ks*SC-k0*OC
+eqn3 = diff(L) == k0*OC(t)-k1*L
